@@ -66,6 +66,7 @@
   justify-content: center;
   list-style: none;
   gap: 15px;
+  cursor: pointer;
 }
 
 .header-top-social ul li a {
@@ -78,6 +79,7 @@
   justify-content: center;
   list-style: none;
   gap: 20px;
+  cursor: pointer;
 }
 
 .header-top-useraccount ul .login {
@@ -97,7 +99,6 @@
 /* Lower Portion of the Header */
 .container-header .container-header-bottom {
   height: 90px;
-  padding-top: 25px;
   background-color: transparent;
   color: #fff;
   display: flex;
@@ -109,6 +110,7 @@
 .container-header-bottom .company-logo {
   width: 170px;
   height: 65px;
+  cursor: pointer;
 }
 
 .company-logo a img {
@@ -121,6 +123,8 @@
   justify-content: space-between;
   list-style: none;
   text-transform: uppercase;
+  width: 800px;
+  height: 42px;
 }
 
 .navigation-links li a {
@@ -128,4 +132,143 @@
   text-decoration: none;
   font-size: 14px;
   font-weight: 700;
+  cursor: pointer;
+}
+
+.container-header-bottom .header-bottom-reaction {
+  width: 105px;
+  height: 36px;
+  margin-left: 15px;
+  color: #273044;
+}
+
+.header-bottom-reaction .like {
+  width: 45px;
+  height: 42px;
+  padding: 0 12px 0 13px;
+  background-color: none;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-bottom-reaction .like i {
+  width: 20px;
+  height: 21px;
+}
+
+.header-bottom-reaction .search {
+  width: 42px;
+  height: 36px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-bottom-reaction .search button {
+  width: 37px;
+  height: 36px;
+}
+
+.search button i {
+  width: 14px;
+  height: 14px;
+}
+
+/* Hero Section */
+.container-hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 200px 0;
+}
+
+.container-hero h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.container-hero h1 span {
+  color: #167fbb;
+}
+
+.container-hero .hero-subheading {
+  color: #fff;
+  text-align: center;
+  font-size: 22px;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+
+.container-hero .hero-search {
+  width: 480px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.container-hero .hero-search input {
+  width: 420px;
+  height: 100%;
+  border: none;
+  font-size: 15px;
+}
+
+.container-hero .hero-search button {
+  width: 30px;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+}
+
+.container-hero .useful-products {
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.container-hero .children-websites {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 500px;
+  height: 100px;
+}
+
+.container-hero .children-websites a {
+  cursor: pointer;
+}
+
+.container-hero .children-websites img {
+  width: 100px;
+  height: 100%;
+}
+
+/* Content Section */
+.container-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container-content h2 {
+  width: 1170px;
+  height: 56px;
+  font-size: 36px;
+  color: #273044;
+  text-align: center;
+}
+
+.container-content .training-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
