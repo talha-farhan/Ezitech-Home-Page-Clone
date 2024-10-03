@@ -269,6 +269,14 @@
 
 .container-content .training-images {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  width: 400px;
+  height: 220px;
+  padding: 0 15px;
+}
+
+.training-images .training img {
+  width: 240px;
+  height: 185px;
 }
